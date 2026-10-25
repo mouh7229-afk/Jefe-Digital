@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101016">
+  <meta name="description" content="Dar Zayna — cuisine marocaine contemporaine, hospitalité authentique et expérience gastronomique premium.">
+  <title>Dar Zayna | Cuisine marocaine contemporaine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span data-i18n="announce">Une expérience marocaine, réinventée.</span><span class="announcement-dot"></span><span>Demo concept by NEXORA</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Dar Zayna home">
+      <span class="brand-mark">ز</span>
+      <span><strong>Dar Zayna</strong><small data-i18n="brandSub">CUISINE & HOSPITALITÉ</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#story" data-i18n="navStory">Notre histoire</a>
+      <a href="#menu" data-i18n="navMenu">La carte</a>
+      <a href="#experience" data-i18n="navExperience">L'expérience</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <select id="language" aria-label="Language">
+        <option value="fr">FR</option><option value="en">EN</option><option value="ar">AR</option>
+      </select>
+      <a class="button button-small" href="#contact" data-i18n="book">Réserver une table</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span></span><span data-i18n="heroEyebrow">MARRAKECH · CUISINE CONTEMPORAINE</span></p>
+        <h1 data-i18n="heroTitle">L’âme du Maroc.<br><em>Une nouvelle élégance.</em></h1>
+        <p class="hero-copy" data-i18n="heroCopy">Des recettes de caractère, des produits choisis avec soin et une hospitalité qui se partage.</p>
+        <div class="hero-buttons">
+          <a class="button" href="#menu" data-i18n="discoverMenu">Découvrir la carte <span>↗</span></a>
+          <a class="text-link" href="#story" data-i18n="ourStory">Notre histoire <span>→</span></a>
+        </div>
+        <div class="hero-foot"><span>31° 37' N — 7° 59' W</span><span data-i18n="scroll">DÉFILER POUR EXPLORER ↓</span></div>
+      </div>
+      <div class="hero-stamp"><span>دار</span><small>HOSPITALITÉ<br>MAROCAINE</small></div>
+    </section>
+
+    <section class="intro section" id="story">
+      <div class="section-kicker"><span>01</span><span data-i18n="storyKicker">L’ART DE RECEVOIR</span></div>
+      <div class="intro-grid">
+        <h2 data-i18n="storyTitle">Un lieu où les traditions <em>rencontrent le présent.</em></h2>
+        <div class="intro-text"><p data-i18n="storyText">Chez Dar Zayna, chaque détail raconte une histoire : les épices du souk, les gestes transmis de génération en génération et une vision contemporaine de la table marocaine.</p><a class="under-link" href="#experience" data-i18n="discoverExperience">Découvrir notre univers <span>↗</span></a></div>
+      </div>
+      <div class="stats">
+        <div><strong>01</strong><span data-i18n="stat1">Une cuisine de saison</span></div>
+        <div><strong>02</strong><span data-i18n="stat2">Des produits sélectionnés</span></div>
+        <div><strong>03</strong><span data-i18n="stat3">Un accueil sincère</span></div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-kicker"><span>02</span><span data-i18n="menuKicker">LA CARTE SIGNATURE</span></div>
+      <div class="section-heading"><h2 data-i18n="menuTitle">Les incontournables <em>de la maison.</em></h2><p data-i18n="menuCopy">Une sélection imaginée autour des saveurs marocaines, avec une touche actuelle.</p></div>
+      <div class="menu-grid">
+        <article class="dish-card"><div class="dish-image dish-one"><span class="dish-number">01</span></div><div class="dish-info"><div><h3 data-i18n="dish1">Tajine d’agneau</h3><p data-i18n="dish1Desc">Pruneaux, amandes grillées, épices douces</p></div><strong>145 <small>MAD</small></strong></div></article>
+        <article class="dish-card"><div class="dish-image dish-two"><span class="dish-number">02</span></div><div class="dish-info"><div><h3 data-i18n="dish2">Pastilla signature</h3><p data-i18n="dish2Desc">Volaille, amandes, cannelle délicate</p></div><strong>125 <small>MAD</small></strong></div></article>
+        <article class="dish-card"><div class="dish-image dish-three"><span class="dish-number">03</span></div><div class="dish-info"><div><h3 data-i18n="dish3">Couscous du vendredi</h3><p data-i18n="dish3Desc">Légumes de saison, bouillon maison</p></div><strong>135 <small>MAD</small></strong></div></article>
+      </div>
+      <p class="demo-note" data-i18n="demoNote">Carte et prix présentés à titre de démonstration.</p>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="experience-image"></div>
+      <div class="experience-copy"><div class="section-kicker"><span>03</span><span data-i18n="expKicker">PLUS QU’UN REPAS</span></div><h2 data-i18n="expTitle">L’élégance se cache <em>dans les détails.</em></h2><p data-i18n="expText">Lumière douce, matières naturelles et service attentionné : une atmosphère pensée pour les grandes occasions comme les moments simples.</p><a class="button" href="#contact" data-i18n="planVisit">Préparer votre visite <span>↗</span></a></div>
+    </section>
+
+    <section class="quote section"><span class="quote-mark">“</span><blockquote data-i18n="quote">La meilleure cuisine est celle qui vous fait sentir chez vous, même loin de chez vous.</blockquote><p>— <span data-i18n="quoteBy">L’esprit Dar Zayna</span></p></section>
+
+    <section class="contact section" id="contact">
+      <div class="section-kicker"><span>04</span><span data-i18n="contactKicker">NOUS VOUS ATTENDONS</span></div>
+      <div class="contact-grid"><div><h2 data-i18n="contactTitle">Votre table <em>vous attend.</em></h2><p data-i18n="contactCopy">Pour une réservation, un événement privé ou toute question, contactez notre équipe.</p><a class="button" id="whatsapp-link" href="https://wa.me/212600000000?text=Bonjour%20Dar%20Zayna%2C%20je%20souhaite%20r%C3%A9server%20une%20table." target="_blank" rel="noopener" data-i18n="whatsapp">Réserver sur WhatsApp <span>↗</span></a></div><div class="contact-details"><div><span data-i18n="addressLabel">ADRESSE</span><p>Quartier Guéliz, Marrakech<br>Maroc <small data-i18n="demoAddress">(adresse fictive pour la démo)</small></p></div><div><span data-i18n="hoursLabel">HORAIRES</span><p data-i18n="hours">Tous les jours<br>12:00–15:00 · 19:00–23:00</p></div><div><span data-i18n="contactLabel">CONTACT</span><p>+212 600 000 000<br>bonjour@darzayna.example</p></div></div></div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">ز</span><span><strong>Dar Zayna</strong><small>CUISINE & HOSPITALITÉ</small></span></a><p data-i18n="footerDemo">Concept fictif créé pour le portfolio NEXORA.</p><div><span>© 2026 Dar Zayna</span><a href="https://mouh7229-afk.github.io/Jefe-Digital/" target="_blank" rel="noopener">Made by NEXORA ↗</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
