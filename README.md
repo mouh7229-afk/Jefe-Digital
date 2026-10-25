@@ -1,26 +1,33 @@
-# NEXORA — Dar Zayna Premium Restaurant Demo
+# NEXORA — Digital Solutions
 
-A responsive, fictional premium Moroccan restaurant website created as a portfolio concept for NEXORA.
+A responsive, multilingual business website built with plain HTML, CSS and JavaScript. No framework, build process, API key, or paid library is required.
 
-## Files
-- `index.html` — page structure and content
-- `style.css` — responsive dark premium visual system with purple/blue accents
-- `script.js` — French/English/Arabic switching, RTL support, mobile navigation, language persistence
+## Included
+- Premium dark/indigo design with a rotating 3D CSS cube in the hero
+- Pointer-based 3D parallax, animated rings, NFC card/phone showcase, and a depth-styled POS/stock dashboard
+- Services, portfolio concepts, process, Why NEXORA, FAQ, contact and footer
+- English, French and Arabic language switching; Arabic automatically switches the page to RTL
+- Responsive mobile navigation with accessible labels, Escape-to-close behavior, and automatic close after navigation
+- Reduced-motion support, keyboard focus indicators, and safe language preference storage
+- SEO/social metadata and direct WhatsApp contact
 
-## Preview locally
-Open `index.html` in a modern browser. An internet connection is needed for Google Fonts and the remote Unsplash photos.
+## Contact
+- Number supplied: `0699332502`
+- WhatsApp link: `https://wa.me/212699332502`
+- Email was not supplied, so no fake email address or non-working email button is displayed.
 
-## Publish free with GitHub Pages
-1. Create a new public GitHub repository, for example `nexora-dar-zayna-demo`.
-2. Upload the three files (`index.html`, `style.css`, `script.js`) and this README.
-3. In the repository, open **Settings → Pages**.
-4. Under build/deployment, select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
-5. Wait for GitHub Pages to publish the site and use the generated URL.
+## Run locally
+Open `index.html` in a browser. Keep `index.html`, `style.css`, and `script.js` in the same folder.
 
-## Important before presenting to clients
-- This is a fictional portfolio demo, not a real restaurant.
-- The restaurant name, address, phone number, email, menu and prices are placeholders.
-- Replace `+212 600 000 000` / `212600000000` with the real restaurant contact before any real use.
-- Replace the sample menu and prices with approved client information.
-- Remote photos are illustrative; replace with licensed or client-owned images for production.
-- NEXORA contact links can be added to the portfolio page when the demo is published.
+## Deploy on GitHub Pages
+1. Extract the ZIP on your device.
+2. Upload `index.html`, `style.css`, `script.js`, and `README.md` directly into the **root** of your GitHub repository (not inside a nested folder).
+3. Replace files with the same names if GitHub asks.
+4. Commit the changes.
+5. In **Settings → Pages**, select your deployment branch (usually `main`) and folder `/(root)`.
+
+## Notes
+- Portfolio visuals and the POS dashboard are illustrative showcase mockups, not claims of fully launched products.
+- Prices are intentionally omitted; project quotes can be discussed with each client.
+- The 3D effects use lightweight CSS and JavaScript rather than a heavy 3D engine.
+- Language dictionaries were checked against the text keys used by the page; internal section links and duplicate IDs were checked as well.
